@@ -38,7 +38,7 @@ const Footer = () => {
         )}
         {/* Footer Text */}
         <p className="text-md">
-          &copy; 2025 TaskFlow | All rights reserved.
+          &copy; 2025 TMS | All rights reserved.
         </p>
       </div>
     </footer>

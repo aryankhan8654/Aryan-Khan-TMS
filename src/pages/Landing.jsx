@@ -28,7 +28,7 @@ const Landing = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Welcome to <span className="block">TaskFlow</span>
+          Welcome to <span className="block">TMS</span>
         </motion.h1>
         <p className="mt-4 text-lg text-gray-600 max-w-2xl">
           Boost productivity, streamline workflow, and collaborate in real-time.
@@ -122,8 +122,8 @@ const Landing = () => {
           <h2 className="text-4xl font-bold text-center mb-8 text-gray-800">❓ Frequently Asked Questions</h2>
           <div className="space-y-4">
             {[
-              { question: "Is TaskFlow free to use?", answer: "Yes! TaskFlow offers a free plan with core features." },
-              { question: "Can I use TaskFlow for my team?", answer: "Absolutely! TaskFlow supports team collaboration." },
+              { question: "Is TMS free to use?", answer: "Yes! TMS offers a free plan with core features." },
+              { question: "Can I use TMS for my team?", answer: "Absolutely! TMS supports team collaboration." },
               { question: "How can I get support?", answer: "You can contact us via email or our support center." },
             ].map((faq, index) => (
               <div

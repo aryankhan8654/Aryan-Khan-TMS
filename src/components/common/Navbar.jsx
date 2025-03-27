@@ -74,7 +74,7 @@ const Navbar = () => {
         className="flex items-center text-3xl font-bold tracking-wide hover:opacity-70 transition"
       >
         <img src="/app_icon.png" alt="TaskFlow Logo" className="w-12 h-12 rounded-full mr-2" />
-        TaskFlow
+        TMS
       </Link>
 
       <div className="flex items-center gap-4">
